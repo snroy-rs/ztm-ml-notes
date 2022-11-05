@@ -41,4 +41,14 @@ Machine Learning came along to automate and help us make data-driven decisions m
 
 **Reinforcement learning** - Teaching machines through trial/error, reward/punishment. Reinforces positive rewards and changes behaviors based on negative rewards. 
 
+# 2) ML and Data Science Framework
+Machine Learning comes in three parts: data modeling, data collection, and deployment.
 
+First, create a framework. Then, match it to DS and ML tools. Lastly, we'll learn by doing.
+
+Determine what problem we're trying to solve. (supervised or unsupervised)
+What kind of data do we have? (structured or unstructured?)
+What does success mean to us? (metrics in where we want our models to be at of an accuracy - somethimg to aim for).
+Features - which ones are most useful? Bodyweight is a numerical feature (ex: they're more likely to have heart disease. A ML model algorithm's goal is to turn this data into specific people.
+Modeling - Based on our problem and data, which model should we use."
+Experimentation - how can we improve? what can we try next?

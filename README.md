@@ -25,3 +25,4 @@ The goal of machine learning is to make computers act more and more like humans.
 (Simplified version) We first used spreadsheets like excel to generate data and put it in an excel file to make business decisions. As companies got more idea, we created this idea of relational databases. We needed a better way to organize and understand things from data. Thus, came MySQL: this helped us read, write, and understand data of many different types. Then, in 2000s, we created this idea of "big data" since FB, Google, Twitter needed to store way more precise data for their customers. Then after, NoSQL + MongoDB came along to help us manage even more meta data.
 
 Machine Learning came along to automate and help us make data-driven decisions more efficiently. This was due to the growth in data and the improvements of CPU, GPU, and computation.
+https://cdn.discordapp.com/attachments/1001013905411276820/1038307441550561290/Screenshot_2022-11-04_at_9.22.46_PM.png

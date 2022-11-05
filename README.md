@@ -35,10 +35,10 @@ Machine Learning came along to automate and help us make data-driven decisions m
 ![alt text](https://cdn.discordapp.com/attachments/1001013905411276820/1038338384369811506/Screenshot_2022-11-04_at_11.25.50_PM.png
 )
 
-### **Supervised learning** - Pre-created categorizations for data. You can do things like classification: (is this an apple or a pear?) (regression, stock prices, etc).. GROUPS EXIST.
+**Supervised learning** - Pre-created categorizations for data. You can do things like classification: (is this an apple or a pear?) (regression, stock prices, etc).. GROUPS EXIST.
 
-### **Unsupervised learning** -  Data that doesn't have labels / groups don't exist. Clustering means we need machine to create these groups. GROUPS DONT EXIST.
+ **Unsupervised learning** -  Data that doesn't have labels / groups don't exist. Clustering means we need machine to create these groups. GROUPS DONT EXIST.
 
-### **Reinforcement learning** - Teaching machines through trial/error, reward/punishment. Reinforces positive rewards and changes behaviors based on negative rewards. 
+**Reinforcement learning** - Teaching machines through trial/error, reward/punishment. Reinforces positive rewards and changes behaviors based on negative rewards. 
 
 

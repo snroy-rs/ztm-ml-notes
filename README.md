@@ -28,3 +28,5 @@ Machine Learning came along to automate and help us make data-driven decisions m
 
 ![alt text](https://cdn.discordapp.com/attachments/1001013905411276820/1038307441550561290/Screenshot_2022-11-04_at_9.22.46_PM.png
 )
+
+## Oversimplified YouTube Recommendation Model: https://ml-playground.com/#

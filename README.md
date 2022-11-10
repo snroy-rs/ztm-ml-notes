@@ -79,7 +79,7 @@ Data Types:
 
 Static Data - Data that doesn't change over time. CSV is one of the most common types of data formats.
 
-Static Data:Static Data
+Static Data:
 
 Streaming Data - Data that changes over times. For example, say you wanted to predict how stock prices change depending on news headlines, you'd be working with streaming data since news headlines update constantly. Most of the work you do in practice will start with static data. But once your efforts show more results and you learn, you'll soon be working with streaming data.
 
@@ -88,14 +88,14 @@ Streaming Data:
 ## iii. Types of Evaluation
 An evaluation metric is a measure of how well a machine learning algorithm predicts the future. Depending on the task, your evaluation metric may change. Say for example, it's to detect heart disease, you'll want a model that calculates with at least 99% accuracy since that's a very important task. Also, if you're doing ML for companies, it'll also depend on what percentage they are comfortable with the evaluation metric being.
 
-Evaluation Metric:Evaluation Metric
+Evaluation Metric:
 
 There are different types of metrics:DIfferent metrics
 
 iv. Features in Data
 Features are different forms of data. They refer to forms within structured and unstructured data. For example, if predicting heart disease, features would be variables like body weight, sex, blood pressure, etc. Using feature variables, we can find out the target variables (whether or not someone has heart disease).
 
-Different features of data:Different features of data
+Different features of data:
 
 Feature Coverage - How many samples have the same features? Ideally, every sample has the same features
 
@@ -108,7 +108,7 @@ Different features of data
 
 v. Picking Model, Tuning, and Comparison
 
-### 3 Parts to Modelling:parts
+### 3 Parts to Modelling
 
 Choosing a Model (Training Data):
 

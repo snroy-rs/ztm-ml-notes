@@ -57,3 +57,87 @@ Features - which ones are most useful? Bodyweight is a numerical feature (ex: th
 Modeling - Based on our problem and data, which model should we use."
 
 Experimentation - how can we improve? what can we try next?
+
+Experimentation - how can we improve? what can we try next?
+
+## i. Types of ML Problems
+
+First, we should clarify for what types of problems we don't need ML to solve (since AI isn't the answer to everything): when a simple hand-coded instruction-based systen will work. For example, if you want to create your favorite dish, if you already know what you need in order to create the result and how to get there, you shouldn't and it wouldn't make sense to use ML to gather the processes.
+
+Main types of machine learning: supervised learning, unsupervised learning, transfer learning, reinforced learning. These are the most common.
+
+Transfer learning is when a machine is learning what another machine knows.
+
+Learning types:Learning Types
+
+## ii. Types of Data
+Structured data - what we see in an excel file, such as rows and columns of different features and records.
+
+Unstructured data - images, natural language text, transcribed phone calls, video calls, etc.
+
+Data Types:
+
+Static Data - Data that doesn't change over time. CSV is one of the most common types of data formats.
+
+Static Data:Static Data
+
+Streaming Data - Data that changes over times. For example, say you wanted to predict how stock prices change depending on news headlines, you'd be working with streaming data since news headlines update constantly. Most of the work you do in practice will start with static data. But once your efforts show more results and you learn, you'll soon be working with streaming data.
+
+Streaming Data:
+
+## iii. Types of Evaluation
+An evaluation metric is a measure of how well a machine learning algorithm predicts the future. Depending on the task, your evaluation metric may change. Say for example, it's to detect heart disease, you'll want a model that calculates with at least 99% accuracy since that's a very important task. Also, if you're doing ML for companies, it'll also depend on what percentage they are comfortable with the evaluation metric being.
+
+Evaluation Metric:Evaluation Metric
+
+There are different types of metrics:DIfferent metrics
+
+iv. Features in Data
+Features are different forms of data. They refer to forms within structured and unstructured data. For example, if predicting heart disease, features would be variables like body weight, sex, blood pressure, etc. Using feature variables, we can find out the target variables (whether or not someone has heart disease).
+
+Different features of data:Different features of data
+
+Feature Coverage - How many samples have the same features? Ideally, every sample has the same features
+
+v. Modelling -- Splitting Data
+It's important that essentially machines learn concepts and are able to apply them to a multitude of similar situations versus memorizimg concepts and final products -- since that isn't helpful for application and retention.
+
+Splitting Data:
+
+Different features of data
+
+v. Picking Model, Tuning, and Comparison
+
+### 3 Parts to Modelling:parts
+
+Choosing a Model (Training Data):
+
+Tuning Data is essentially adjusting and tuning properties to create the best trained data as possible. ML models have hyperparameters you can adjust. Goal of tuning hyperparameters is to improve the model's performance.
+
+When comparing models, you want to make sure that the training set has a close evaluation to the test set:comparing
+
+Here's how you can tell if data is underfitting, overfitting, or just right (Goldilock's Zone):test sets
+
+Fixes for overfitting / underfitting:
+
+Underfitting & Overfitting Data: All experiments should be conducted on different portions of your data.
+
+Training data set — Use this set for model training, 70–80% of your data is the standard. Validation/development data set — Use this set for model hyperparameter tuning and experimentation evaluation, 10–15% of your data is the standard. Test data set — Use this set for model testing and comparison, 10–15% of your data is the standard. These amounts can fluctuate slightly, depending on your problem and the data you have.
+
+Poor performance on training data means the model hasn’t learned properly and is underfitting. Try a different model, improve the existing one through hyperparameter or collect more data.
+
+Great performance on the training data but poor performance on test data means your model doesn’t generalize well. Your model may be overfitting the training data. Try using a simpler model or making sure your the test data is of the same style your model is training on.
+
+Another form of overfitting can come in the form of better performance on test data than training data. This may mean your testing data is leaking into your training data (incorrect data splits) or you've spent too much time optimizing your model for the test set data. Ensure your training and test datasets are kept separate at all times and avoid optimizing a models performance on the test set (use the training and validation sets for model improvement).
+
+Poor performance once deployed (in the real world) means there’s a difference in what you trained and tested your model on and what is actually happening. Ensure the data you're using during experimentation matches up with the data you're using in production.
+
+## vi. Experimentation + Tools
+Machine Learning projects become tool-matching projects. (what have we tried? what else can we try?)
+
+Tools:
+
+Anaconda, the hardware store for ML and DS tools
+Jupyter Notebooks, to write Python code and communicate our work. All our projects are done here.
+Pandas, Matplot Lib, NumPy; data analysis
+Tensor Flow, Scikit Learn, Pytorch; building ML models
